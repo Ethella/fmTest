@@ -22,9 +22,9 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/Ethella/fmTest'
-  s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache License 2.0' }
   s.author           = { 'Jerry Liu' => 'jerry@fortmatic.com' }
-  s.source           = { :git => 'https://github.com/fortmatic/fortmatic-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Ethella/fmTest.git', :tag => s.version.to_s }
   s.swift_version    = '5.0'
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'Fortmatic/Fortmatic.framework'
